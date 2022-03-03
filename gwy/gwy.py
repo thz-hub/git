@@ -63,7 +63,7 @@ def get_html_2(headers, hrefs):
             item = item.result()
             date.append(item)
 
-    dates = date[:442]
+    dates = date[:443]
 
     return dates
 
