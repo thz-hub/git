@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/linebackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffb20ccf" android:id="@id/tv_uid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="UID:" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_web" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_margin="5.0dip" android:text="登录" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="#ffff5722" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="如选择未安装的选项，会导致无限闪退，如出现此情况可重新覆盖安装或重启手机" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/linebackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffff5722" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="请选择您需要\n快捷打开的原神类型" />
+        <CheckBox android:textColor="#ffff5722" android:gravity="center" android:id="@id/cb_yuanShen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="原神" />
+        <CheckBox android:textColor="#ffff5722" android:gravity="center" android:id="@id/cb_yunyuanShen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="云原神" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_setLaunch" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="保存" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/linebackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_width="289.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="请在系统通知设置里调整软件的通知权限\n如果后台容易被杀掉，请给软件设置后台权限\n可前往公众号“一分钟都不能浪费”获取设置和Cookie抓取帮助\n点击右方按钮即可复制公众号名到系统剪切板\n 本软件目前有电脑版和安卓版两种版本；\n 公众号内回复 原神 可获取帮助菜单\n 交流讨论QQ群：543298695" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_copy" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="复制" />
+    </LinearLayout>
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_return" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_margin="5.0dip" android:text="返回主页面" />
+</LinearLayout>

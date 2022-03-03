@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="35.0sp" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="384.0dip" android:text="APP已有新版本\n请前往公众号：一分钟都不能浪费 更新\n公众号名已复制到剪贴板\n还可扫描下方二维码进入公众号" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageView" android:layout_width="299.0dip" android:layout_height="297.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/wechat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/linebackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_notice2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="35.0dip">
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_getinfo" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="刷新信息" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_set" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="设置" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_gongju" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="小工具" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_Sign" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="米游社签到" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_Cooopy" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="复制错误" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/linebackground" android:layout_width="fill_parent" android:layout_height="72.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/shuzhi" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_resin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="请点击登录" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/qian" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_qian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="请点击登录" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_task" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="每日任务" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expeditionCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="派遣情况" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expedition1" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/diona" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expedition1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expedition2" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/diona" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expedition2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expedition3" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/diona" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expedition3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expedition4" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/diona" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expedition4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expedition5" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/diona" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_expedition5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

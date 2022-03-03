@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.example.cherisheveryminutemobile" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="notification.App" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.CherishEveryMinuteMobile">
+        <activity android:exported="false" android:name="tool.gongJu"/>
+        <receiver android:enabled="true" android:exported="true" android:name="core.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="core.GuardService"/>
+        <service android:enabled="true" android:exported="false" android:name="notification.baseService">
+            <intent-filter>
+                <action android:name="intent"/>
+                <action android:name="pendingIntent"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="core.CalendarService"/>
+        <activity android:exported="false" android:name="core.OpenApp"/>
+        <activity android:exported="false" android:name="core.getCookie.webActivity"/>
+        <activity android:exported="false" android:name="core.getCookie.copyCookiesActivity"/>
+        <activity android:exported="false" android:name="UI.Activity_Update"/>
+        <activity android:exported="true" android:name="UI.setUid"/>
+        <activity android:exported="true" android:name="UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="notification.NotificationService">
+            <intent-filter>
+                <action android:name="notification.click"/>
+                <action android:name="notification.close"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="notification.NotificationServicedrop">
+            <intent-filter>
+                <action android:name="notification.click"/>
+                <action android:name="notification.dropclose"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="widget.ResinProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_provider"/>
+        </receiver>
+        <service android:name="widget.ResinService"/>
+        <receiver android:exported="true" android:name="widget.AllInfoProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_all"/>
+        </receiver>
+        <service android:name="widget.allService"/>
+        <receiver android:exported="true" android:name="widget.FangResinInfoProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_fang_resin"/>
+        </receiver>
+        <service android:name="widget.FangResinService"/>
+        <receiver android:exported="true" android:name="widget.DanResinInfoProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_dan_resin"/>
+        </receiver>
+        <service android:name="widget.DanResinService"/>
+        <provider android:authorities="com.example.cherisheveryminutemobile.AgentWebFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.just.agentweb.AgentWebFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/web_files_public"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.just.agentweb.ActionActivity" android:theme="@style/actionActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>

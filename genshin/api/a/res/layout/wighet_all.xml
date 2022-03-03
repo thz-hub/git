@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/wight_background" android:layout_width="fill_parent" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_resin" android:layout_width="34.0dip" android:layout_height="32.0dip" android:src="@drawable/shuzhi" android:scaleType="fitXY" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_centerVertical="true">
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_resin1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Title" />
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_resin2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_exImage1" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/hutao" android:scaleType="fitXY" android:contentDescription="@null" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_exText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_exImage2" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/hutao" android:scaleType="fitXY" android:contentDescription="@null" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_exText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_exImage3" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/hutao" android:scaleType="fitXY" android:contentDescription="@null" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_exText3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_exImage4" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/hutao" android:scaleType="fitXY" android:contentDescription="@null" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_exText4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_exImage5" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/hutao" android:scaleType="fitXY" android:contentDescription="@null" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_exText5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+</LinearLayout>

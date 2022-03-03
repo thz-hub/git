@@ -1,0 +1,18 @@
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "list": [
+            {
+                "game_biz": "hk4e_cn",
+                "region": "cn_gf01",
+                "game_uid": "187812151",
+                "nickname": "求钓鱼",
+                "level": 48,
+                "is_chosen": false,
+                "region_name": "天空岛",
+                "is_official": true
+            }
+        ]
+    }
+}

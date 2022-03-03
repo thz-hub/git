@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="152.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:ellipsize="end" android:id="@id/tv_tishi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="text" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Title" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_juese1" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese2" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese3" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese4" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese5" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese6" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese7" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese8" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese9" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese10" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese11" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/iv_close" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@drawable/note_btn_close_white" android:scaleType="fitCenter" android:contentDescription="@null" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_juese12" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese13" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese14" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese15" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese16" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese17" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese18" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese19" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese20" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese21" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese22" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_juese23" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_wuqi1" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi2" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi3" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi4" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi5" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi6" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi7" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi8" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi9" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi10" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi11" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi12" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_wuqi13" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi14" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi15" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi16" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi17" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi18" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi19" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi20" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi21" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi22" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi23" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi24" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_wuqi25" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi26" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi27" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi28" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi29" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi30" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi31" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi32" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi33" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi34" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi35" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:id="@id/iv_wuqi36" android:layout_width="29.0dip" android:layout_height="27.0dip" android:src="@drawable/chunbai" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+</LinearLayout>

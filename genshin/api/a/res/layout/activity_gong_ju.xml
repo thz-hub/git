@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/linebackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip">
+        <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小工具集合--暂时只有这些" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_return" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_margin="2.0dip" android:text="返回" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/linebackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip">
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_yuanShenLaunch" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="启动原神" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_yunyuanShenLaunch" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="启动云原神" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_getcookie" android:background="@drawable/button_background_color" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="cookies获取" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/btn_Sign" android:background="@drawable/button_background_color" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="米游社签到" />
+    </LinearLayout>
+</LinearLayout>
