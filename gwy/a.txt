@@ -1,0 +1,1104 @@
+<html>
+<head>
+    <title>安徽省人事考试网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <link href="/Content/main.css" rel="stylesheet"/>
+
+
+    <link href="/Content/basic.css" rel="stylesheet"/>
+
+    <link href="/Content/pagecss.css" rel="stylesheet"/>
+
+    <style type="text/css">
+        .position-box {
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #D1D1D1;
+            /*xzbai修改表格样式*/
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: #D1D1D1;
+            font-family: "宋体";
+            font-size: 12px;
+        }
+    </style>
+
+    <script src="/Scripts/modernizr-2.5.3.js"></script>
+
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+
+</head>
+<body>
+    <div align="center">
+        <table width="1000" height="120" bgcolor="#eb491a" border="0" align="center" cellpadding="0"
+       cellspacing="0">
+    <tr>
+        <td width="680" rowspan="3" align="center" class="gwy_headertitle_font">
+            &nbsp;
+安徽省2023年度考试录用公务员专题        </td>
+        <td height="40" align="right" class="yahei">
+            <!--<a class="yahei" href="http://220.180.239.166:13100/apta/" CLASS ="yahei" target="_blank">老版网站</a> |-->
+            <!--<a class="yahei" href="http://www.apta.gov.cn:10080" class="yahei" target="_blank">手机网站</a>-->
+                    <span>&nbsp;</span>
+
+        </td>
+    </tr>
+    <tr>
+        <td height="40">
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td height="40" align="right" class="yahei">
+            今天是：2023年02月02日，周四&nbsp;
+        </td>
+    </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" class="gwy_nav_bg">
+    <tr>
+                <td align="center" class="gwy_nav_font">
+                    <a href="/Officer/TopicIndex?examid=324" target="_blank">&nbsp;专&nbsp;题&nbsp;首&nbsp;页&nbsp;</a>
+                </td>
+                <td align="center" class="gwy_nav_font">
+                    <img src="/images/line3.jpg" width="1" height="40">
+                </td>
+                        <td align="center" class="gwy_nav_font_current">
+                            <a href="/Officer_PositionView?examid=324&&type=&&pcode=" target="_blank">&nbsp;职位 一览&nbsp;</a>
+                        </td>
+                        <td align="center" class="gwy_nav_font">
+                            <img src="/images/line3.jpg" width="1" height="40">
+                        </td>
+                    <td align="center" class="gwy_nav_font">
+                        <a href="/Officer/Summary?examid=324&&pcode=" target="_blank">报名情况浏览</a>
+                    </td>
+                    <td align="center" class="gwy_nav_font">
+                        <img src="/images/line3.jpg" width="1" height="40">
+                    </td>
+                        <td align="center" class="gwy_nav_font">
+                            <a href="/Officer_Question?examid=324&&qtype=0" target="_blank">留言板</a>
+                        </td>
+
+    </tr>
+</table>
+
+    </div>
+
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin-top: 2px;">
+        <tr>
+            <td style="width: 100%" align="center" valign="top">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="news_font" bgcolor="#f2f2f2" colspan="2">&nbsp;您当前的位置：
+                        <a href="/Officer">专题考试</a>
+                            &rarr; 职位<span>一览</span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%; text-align: right" class="news_font">
+                            职位<span>代码:</span><input id="positionCode" name="positionCode" />
+                        </td>
+                        <td style="text-align: left" class="news_font">&nbsp;
+                            <span>所在地:</span><select name="citySelect" id="citySelect"></select>
+                            <img id="searchposition" src="/images/search2.jpg" alt="" style="cursor: pointer" title="" align="absmiddle" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="300" align="center" valign="top" colspan="2">
+                            <table width="99%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="position-box" style="width: 100px; text-align: center; background-color: #eb491a; color: #fff;">&nbsp;职位<span>代码</span>
+                                    </td>
+                                            <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">职位<span>名称</span>
+                                            </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                                <span>招考计划</span>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">招录机关</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">机构性质</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">机构层级</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">职位类别</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">职位层次</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">专业</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">学历</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">学位</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">年龄</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">经历要求</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">其他</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">申论类别</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">专业科目</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">备注（职位简介）</label>
+                                        </td>
+                                        <td class="position-box" style="width: auto; text-align: center; background-color: #eb491a; color: #fff;">
+                                            <label for="">考生咨询电话</label>
+                                        </td>
+
+                                </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010001
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                机关综合
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                2
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市人大常委会办公室
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中国语言文学类、法学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事机关综合管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537596
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010002
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                纪检监察
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市纪委监委派驻纪检监察机构
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                法学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员，具有法律职业资格证书A类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事监督检查、审查调查有关工作，工作强度较大，出差较多，需要值班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537337
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010003
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                纪检监察
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市纪委监委派驻纪检监察机构
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                法学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                具有2年以上基层工作经历
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员，具有法律职业资格证书A类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事监督检查、审查调查有关工作，工作强度较大，出差较多，需要值班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537337
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010004
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                纪检监察
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市纪委监委派驻纪检监察机构
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                计算机类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                研究生
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                硕士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                计算机
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事监督检查、审查调查有关工作，工作强度较大，出差较多，需要值班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537337
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010005
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                纪检监察
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                2
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市纪委监委派驻纪检监察机构
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                侦查学专业、经济犯罪侦查专业、技术侦查学专业、犯罪学专业、公安情报学专业
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事监督检查、审查调查有关工作，工作强度较大，出差较多，需要值班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537337
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010006
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                文化产业规划管理
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共合肥市委宣传部
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                经济学类、文化产业管理专业
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                具有2年以上基层工作经历
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事文化产业规划和管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537523
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010007
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                综合文字
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共合肥市委统一战线工作部
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中国语言文学类、新闻传播学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共党员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事机关综合文字等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537664
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010008
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                综合文字
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共合肥市委市直机关工作委员会
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                哲学专业、汉语言文学专业、汉语言专业、思想政治教育专业、马克思主义理论专业、新闻学专业
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事文稿起草和机关综合管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537905
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010009
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                机关综合
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中共合肥市委老干部局
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                中国语言文学类、新闻传播学类、工商管理类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事机关综合文字、财务管理、老干部服务管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-62847018
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010010
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                文明创建管理
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市文明办
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                公共管理类、中国语言文学类、新闻传播学类、教育学类、计算机类、哲学类、法学类、历史学类、城乡规划专业
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事城市精神文明建设综合管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63537599
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010011
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                机关综合
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                民盟合肥市委
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                不限
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                无党派或民盟盟员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事机关综合管理等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63534697
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010012
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                机关综合
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                民建合肥市委
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                不限
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                服务基层项目人员
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事参政议政、理论研究等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63534683
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010013
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                经济管理
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                1
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市工商业联合会
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                党群
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                经济学类、经济与金融专业、工商管理专业
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事经济政策服务、民营经济发展调研、商会研究等工作
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63546062
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010014
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                机关综合
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                2
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市人民政府办公室
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                行政
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                经济学门类、中国语言文学类、新闻传播学类、建筑类、统计学类、法学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                具有2年以上基层工作经历
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事机关综合文字、政策研究等工作，经常加班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63538091
+                                            </td>
+
+                                    </tr>
+                                    <tr>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                010015
+                                            </td>
+                                            <td class="position-box" style="width: auto;">
+                                                宏观经济发展研究
+                                            </td>
+                                            <td class="position-box" style="width: auto; text-align: center;">
+                                                2
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                合肥市发展和改革委员会
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                行政
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                市级
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                综合管理
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                三级主任科员及以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                金融学类、统计学类
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                本科
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                学士
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                35周岁以下
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                具有2年以上基层工作经历
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                A
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                主要从事宏观经济形势分析、经济政策研究分析等工作，经常加班
+                                            </td>
+                                            <td class="position-box" style="width: auto">
+                                                0551-63538423
+                                            </td>
+
+                                    </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="meneame pageBar" ><span class="current">1</span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=2">2</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=3">3</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=4">4</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=5">5</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=6">6</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=7" title="后6页">..</a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=2" title="下一页">></a></span><span><a href="/Officer_PositionView?examid=324&&&type=&pcode=&pi=233" title="最后一页">>></a></span><span class="current">共233页</span></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <div align="center">
+        &nbsp;
+    </div>
+
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+
+    <script src="/Scripts/jquery.form.js"></script>
+
+
+    <script type="text/javascript">
+        //加载考点
+        var codeMC = "";
+        $(document).ready(function () {
+            if ("False" == "True") {
+                codeMC = "岗位";
+            }
+            else {
+                codeMC = "职位";
+            }
+            LoadCities();
+        });
+
+        function LoadCities() {
+            var examid = "324";
+            var citySelect = $("#citySelect");
+            var cityCode = "";
+            citySelect.append('<option value="">--查看所有' + codeMC + '--</option></select>');
+            $.ajax({
+                type: 'get',
+                cache: false,
+                dataType: "json",
+                url: '/Officer_PositionView/GetPositionRegions?examid=' + '324',
+                success: function (result) {
+                    if (result.success) {
+                        $("#positionCode").val("");
+                        $.each(result.value, function (i, obj) {
+                            if (examid == 80) { }
+                            else{
+                                if (cityCode == obj.Code) {
+                                    $('<option value="' + obj.Code + '" selected="selected" >' + obj.Name + '</option>').appendTo("#citySelect");
+                                }
+                                else {
+                                    $('<option value="' + obj.Code + '">' + obj.Name + '</option>').appendTo("#citySelect");
+                                }
+                            }
+                            });
+                        }
+                    }
+            });
+            }
+
+            $("#searchposition").click(function () {
+                var type = $("#citySelect").find("option:selected").val();
+                if (typeof (type) == "undefined") {
+                    type = "";
+                }
+                var pcode = $("#positionCode").val();
+                location.href = "/Officer_PositionView?examid=" + "324" + "&&type=" + type + "&&pcode=" + pcode;
+        });
+    </script>
+
+    <script type="text/javascript">
+        $("td.copyright").find("iframe").prev().attr("href", "javascript:void(0)");
+        $("td.copyright").find("iframe").prev().attr("title", "");
+    </script>
+</body>
+</html>
+
+
+进程已结束,退出代码0

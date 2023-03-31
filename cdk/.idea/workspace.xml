@@ -33,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Git/epicgame",
+    "last_opened_file_path": "E:/Git/gwy",
     "settings.editor.selected.configurable": "PyConsoleConfigurable.Python 控制台",
     "vue.rearranger.settings.migration": "true"
   }
@@ -181,6 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673613040070</updated>
       <workItem from="1673613043424" duration="7734000" />
+      <workItem from="1675321066072" duration="8000" />
     </task>
     <servers />
   </component>
